@@ -101,11 +101,10 @@ function valMultIndex(arr) {
 
 // extractFullName
 function extractFullName(arr) {
-	arr.map(function (val) {
-		return `hello${val.first},${val.last}`;
+	return arr.map(function (val) {
+		return `${val.first}, ${val.last}`;
 	});
 }
-
 // // filterByValue(
 // [
 // 	{first: 'Elie', last:"Schoppik"},
